@@ -2,6 +2,6 @@
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build --base / --out ../../dist/index"
+    "build": "slidev build --base /index --out ../../dist/index"
   }
 }
