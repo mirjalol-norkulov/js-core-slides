@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist && pnpm -r run build"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.28.9",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "playwright-chromium": "^1.19.2",
+    "pnpm": "^6.32.2",
+    "rimraf": "^3.0.2"
+  },
+  "name": "js-core-slides"
+}

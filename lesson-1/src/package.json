@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base /lesson-1/ --out ../../dist/lesson-1",
+    "export": "slidev export --dark --output ../lesson-1.pdf"
+  }
+}
