@@ -5,6 +5,7 @@ drawings:
   persist: false
 download: true
 hideInToc: true
+colorSchema: light
 ---
 
 # 1-dars
