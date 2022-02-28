@@ -17,7 +17,7 @@ hideInToc: true
 
 # Reja
 
-<Toc />
+<Toc :columns="2" />
 
 ---
 layout: image-right
