@@ -1,16 +1,18 @@
 ---
-theme: default
+theme: ../../theme
 highlighter: shiki
 drawings:
   persist: false
 download: true
 hideInToc: true
 colorSchema: light
+title: 1-dars
 ---
 
 # 1-dars
 
 Dasturlash tillari. JavaScript dasturlash tili. Primitive tiplar.
+
 
 ---
 hideInToc: true
@@ -124,7 +126,7 @@ Weakly typed tillarga JavaScript, PHP tillarini misol qilishimiz mumkin.
 - JavaScript yuqori darajali, dinamik va weakly typed dasturlash tili
 - 1995 yilda **Brendan Eich** tomonidan ishlab chiqilgan
 
-<SNote class="mt-4">
+<SNote>
   JavaScript va Java bir-biriga bog'liq bo'lmagan tillar hisoblanadi.
 </SNote>
 
