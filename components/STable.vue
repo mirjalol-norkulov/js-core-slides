@@ -12,6 +12,10 @@ const props = defineProps({
     type: [String, Function],
     required: true,
   },
+  showNumeration: {
+    type: Boolean,
+    default: true,
+  },
 });
 
 const getRowKey = (row) => {
@@ -27,7 +31,7 @@ const getRowKey = (row) => {
   <table>
     <thead>
       <tr>
-        <th>№</th>
+        <th v-if="showNumeration">№</th>
         <th v-for="column in columns" :key="column.field">
           {{ column.title }}
         </th>
@@ -35,7 +39,7 @@ const getRowKey = (row) => {
     </thead>
     <tbody>
       <tr v-for="(row, rowIndex) in data" :key="getRowKey(row)">
-        <td>{{ rowIndex + 1 }}</td>
+        <td v-if="showNumeration">{{ rowIndex + 1 }}</td>
         <td v-for="(column, index) in columns" :key="index">
           {{ row[column.field] }}
         </td>

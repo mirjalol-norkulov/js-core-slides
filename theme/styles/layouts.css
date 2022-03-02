@@ -1,7 +1,7 @@
 .slidev-layout {
-  h1 + p {
+  /* h1 + p {
     @apply -mt-2 opacity-50 mb-4;
-  }
+  } */
 
   p + h2,
   ul + h2,
@@ -79,7 +79,7 @@
 #slide-content {
   background-image: url("../assets/gita-light.webp");
   background-repeat: no-repeat;
-  background-position: calc(100% - 10px) 10px;
+  background-position: calc(100% - 16px) 16px;
   background-size: 72px;
 }
 
