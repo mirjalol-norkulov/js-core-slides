@@ -1,5 +1,5 @@
 ---
-theme: ../../theme
+theme: default
 colorSchema: light
 layout: default
 ---
