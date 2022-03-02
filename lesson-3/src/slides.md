@@ -37,7 +37,7 @@ condition -- Yolg'on --> 2-amal
 
 ---
 layout: image
-image: /assets/if-else.png
+image: /assets/if-else.webp
 ---
 
 ---
