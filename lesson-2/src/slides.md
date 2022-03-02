@@ -3,7 +3,6 @@ theme: ../../theme
 highlighter: shiki
 drawings:
   persist: false
-download: true
 hideInToc: true
 colorSchema: light
 title: 2-dars
