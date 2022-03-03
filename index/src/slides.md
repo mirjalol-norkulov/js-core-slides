@@ -11,3 +11,5 @@ layout: default
 <a href="/lesson-2">2 - dars. Ma'lumotlarning mantiqiy toifalari. Boolean tipi va mantiqiy amallar</a>
 
 <a href="/lesson-3">3 - dars. Shart va ternar operatorlari</a>
+
+<a href="/lesson-4">4 - dars. Switch operatori</a>
