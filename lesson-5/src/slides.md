@@ -21,8 +21,7 @@ hideInToc: true
 <Toc />
 
 ---
-layout: image-right
-image: /assets/loop.gif
+layout: two-cols
 ---
 
 # JavaScriptda sikllar
@@ -36,6 +35,12 @@ JavaScript dasturlash tilida 3 xil sikl operatorlari mavjud:
 - for
 - do
 - do while
+
+::right::
+
+<div class="h-full flex items-center">
+  <img src="/assets/loop.gif" />
+</div>
 
 ---
 ---

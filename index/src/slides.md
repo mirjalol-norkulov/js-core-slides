@@ -15,3 +15,5 @@ layout: default
 <a href="/lesson-4">4 - dars. Switch operatori</a>
 
 <a href="/lesson-5">5-dars. Sikllar. For sikli</a>
+
+<a href="/lesson-6">6-dars. Sikllar. While sikli</a>
