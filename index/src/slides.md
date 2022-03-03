@@ -13,3 +13,5 @@ layout: default
 <a href="/lesson-3">3 - dars. Shart va ternar operatorlari</a>
 
 <a href="/lesson-4">4 - dars. Switch operatori</a>
+
+<a href="/lesson-5">5-dars. Sikllar. For sikli</a>
