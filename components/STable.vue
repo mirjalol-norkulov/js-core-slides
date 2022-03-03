@@ -31,8 +31,8 @@ const getRowKey = (row) => {
   <table>
     <thead>
       <tr>
-        <th v-if="showNumeration">№</th>
-        <th v-for="column in columns" :key="column.field">
+        <th class="text-bold" v-if="showNumeration">№</th>
+        <th class="text-bold" v-for="column in columns" :key="column.field">
           {{ column.title }}
         </th>
       </tr>

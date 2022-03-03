@@ -27,6 +27,11 @@
   status = 200
 
 [[redirects]]
+  from = "/lesson-5/*"
+  to = "/lesson-5/index.html"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/index/index.html"
   status = 200
