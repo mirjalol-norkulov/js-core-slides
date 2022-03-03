@@ -36,9 +36,10 @@ condition -- Yolg'on --> 2-amal
 ```
 
 ---
-layout: image
-image: /assets/if-else.webp
+layout: center
 ---
+
+![if-else](/assets/if-else.webp)
 
 ---
 layout: center
@@ -192,7 +193,7 @@ ishlatish kerak.
 ---
 ---
 
-# Misol yechishga namunalar
+# Misol yechishga namunalar. if1
 
 <SQuestion>
 
@@ -224,4 +225,64 @@ function if1(n) {
 ---
 ---
 
-# Misol yechishga namunalar
+# Misol yechishga namunalar. if10
+
+<SQuestion>
+
+**if10.** A va B butun sonlari berilgan. Agar o'zgaruvchilar o'zaro teng bo`lmasa, A va B 
+o'zgaruvchilari ularning yig'indisini o'zlashtirsin. Agar teng bo'lsa, 0 ni o'zlashtirsin. A va B ning 
+qiymati ekranga chiqarilsin.
+
+</SQuestion>
+
+```js
+function if10(a, b) {
+  let result = a !== b ? a + b : 0;
+
+  return [result, result];
+};
+
+console.log(if10(1, 2));
+
+console.log(if10(10, 10));
+
+```
+
+---
+---
+
+# Misol yechishga namunalar. if25
+
+<SQuestion>
+
+**if25.** X haqiqiy soni berilgan. Quyidagi funksiya hisoblansin.
+
+![if25](/assets/if25.png)
+
+</SQuestion>
+
+<div class="grid grid-cols-2 gap-x-4">
+
+```js
+function if25(x) {
+  if(x < -2 || x > 2) {
+    return 2 * x;
+  } else {
+    return -3 * x;
+  }
+}
+```
+
+```js
+function if25(x) {
+  return (x < -2 || x > 2) ? (2 * x) : (-3 * x);
+}
+```
+
+</div>
+
+```js
+console.log(if25(-4));
+console.log(if25(10));
+console.log(if25(1));
+```
