@@ -17,3 +17,5 @@ layout: default
 <a href="/lesson-5">5-dars. Sikllar. For sikli</a>
 
 <a href="/lesson-6">6-dars. Sikllar. While sikli</a>
+
+<a href="/lesson-6">7-dars. String tipi</a>
