@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 importers:
 
@@ -29,6 +29,24 @@ importers:
       '@iconify-json/fluent': ^1.1.2
     devDependencies:
       '@iconify-json/fluent': 1.1.2
+
+  lesson-3/src:
+    specifiers: {}
+
+  lesson-4/src:
+    specifiers: {}
+
+  lesson-5/src:
+    specifiers: {}
+
+  lesson-6/src:
+    specifiers: {}
+
+  lesson-7/src:
+    specifiers: {}
+
+  lesson-8/src:
+    specifiers: {}
 
 packages:
 
@@ -193,7 +211,7 @@ packages:
       resolve-from: 5.0.0
       resolve-global: 1.0.0
       shiki: 0.10.1
-      unplugin-icons: 0.13.2_5dbb0cc878f3ab9caa0bd7b169eded43
+      unplugin-icons: 0.13.2_lw5qzsdy6ovzzkql26ywt3pnim
       unplugin-vue-components: 0.17.21_vite@2.8.6+vue@3.2.31
       vite: 2.8.6
       vite-plugin-md: 0.11.8_vite@2.8.6
@@ -2462,7 +2480,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /unplugin-icons/0.13.2_5dbb0cc878f3ab9caa0bd7b169eded43:
+  /unplugin-icons/0.13.2_lw5qzsdy6ovzzkql26ywt3pnim:
     resolution: {integrity: sha512-Dwfn5DkKrp/BpZV0R/2wgU39j+kjkeuIQ54PmJ9LhXNpNAS+Huf6Fl/PUmUrlWOvMAz0uPo3y/5lQKZUBjBkBQ==}
     peerDependencies:
       '@svgr/core': '>=5.5.0'
